@@ -1,5 +1,4 @@
-package com.tta;
-import io.RestAssured.
+import io.restassured.RestAssured;
 public class ratest {
     public static void main(String[] args) {
 
