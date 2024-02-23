@@ -5,9 +5,15 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="73b2875e-5c9c-402c-8941-47126ccea24f" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/src/test/java/test/CRUD/GET/nonBDDGETTestNG.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/test/CRUD/DELETE/NonBDDDelete.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/test/CRUD/PATCH/NonBDDPatch.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/test/CRUD/POST/BDDPOSTReq.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/test/CRUD/POST/NonBDDPOSTReq.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/test/CRUD/POST/testng_POST.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/test/CRUD/PUT/NonBDDPUT.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/test/CRUD/PUT/testng-PUT.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/test/CRUD/GET/nonBDDGET.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/test/CRUD/GET/nonBDDGET.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -33,74 +39,41 @@
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent">{
-  &quot;keyToString&quot;: {
-    &quot;Application.BDDpatternget.executor&quot;: &quot;Run&quot;,
-    &quot;Application.Main.executor&quot;: &quot;Run&quot;,
-    &quot;Application.nonBDDGET.executor&quot;: &quot;Run&quot;,
-    &quot;Application.ratest.executor&quot;: &quot;Run&quot;,
-    &quot;RunOnceActivity.OpenProjectViewOnStart&quot;: &quot;true&quot;,
-    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
-    &quot;git-widget-placeholder&quot;: &quot;master&quot;,
-    &quot;kotlin-language-version-configured&quot;: &quot;true&quot;,
-    &quot;project.structure.last.edited&quot;: &quot;SDKs&quot;,
-    &quot;project.structure.proportion&quot;: &quot;0.15&quot;,
-    &quot;project.structure.side.proportion&quot;: &quot;0.2&quot;,
-    &quot;settings.editor.selected.configurable&quot;: &quot;preferences.pluginManager&quot;
+  <component name="PropertiesComponent"><![CDATA[{
+  "keyToString": {
+    "ASKED_ADD_EXTERNAL_FILES": "true",
+    "Application.BDDpatternget.executor": "Run",
+    "Application.Main.executor": "Run",
+    "Application.nonBDDGET.executor": "Run",
+    "Application.ratest.executor": "Run",
+    "RunOnceActivity.OpenProjectViewOnStart": "true",
+    "RunOnceActivity.ShowReadmeOnStart": "true",
+    "TestNG.BDDPOSTReq.executor": "Run",
+    "TestNG.C:/Users/manas/IdeaProjects/ATB5X/src/test/java/test/CRUD/POST/testng_POST.xml.executor": "Run",
+    "TestNG.C:/Users/manas/IdeaProjects/ATB5X/src/test/java/test/CRUD/PUT/testng-PUT.xml.executor": "Run",
+    "TestNG.C:/Users/manas/IdeaProjects/ATB5X/testng.xml.executor": "Run",
+    "TestNG.NonBDDPUT.executor": "Run",
+    "TestNG.NonBDDPatch.executor": "Run",
+    "TestNG.nonBDDGETTestNG.executor": "Run",
+    "git-widget-placeholder": "master",
+    "kotlin-language-version-configured": "true",
+    "last_opened_file_path": "C:/Users/manas/IdeaProjects/ATB5X/src/test/java/test/CRUD/PUT",
+    "project.structure.last.edited": "SDKs",
+    "project.structure.proportion": "0.15",
+    "project.structure.side.proportion": "0.2",
+    "settings.editor.selected.configurable": "preferences.pluginManager"
   }
-}</component>
+}]]></component>
   <component name="RecentsManager">
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="C:\Users\manas\IdeaProjects\ATB5X\src\test\java\test\CRUD\PUT" />
+      <recent name="C:\Users\manas\IdeaProjects\ATB5X\src\test\java\test\CRUD\POST" />
+    </key>
     <key name="MoveClassesOrPackagesDialog.RECENTS_KEY">
       <recent name="" />
     </key>
   </component>
-  <component name="RunManager" selected="TestNG.nonBDDGETTestNG">
-    <configuration name="BDDpatternget" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="test.CRUD.GET.BDDpatternget" />
-      <module name="Rest Assured API" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="test.CRUD.GET.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="Main" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="com.tta.Main" />
-      <module name="Rest Assured API" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value=".*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="nonBDDGET" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="test.CRUD.GET.nonBDDGET" />
-      <module name="Rest Assured API" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="test.CRUD.GET.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="ratest" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="ratest" />
-      <module name="Rest Assured API" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
+  <component name="RunManager" selected="TestNG.NonBDDDelete">
     <configuration default="true" type="JetRunConfigurationType">
       <module name="ATB5X" />
       <method v="2">
@@ -114,16 +87,70 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="nonBDDGETTestNG" type="TestNG" temporary="true" nameIsGenerated="true">
+    <configuration name="C:/Users/manas/IdeaProjects/ATB5X/src/test/java/test/CRUD/POST/testng_POST.xml" type="TestNG" temporary="true" nameIsGenerated="true">
+      <module name="Rest Assured API" />
+      <option name="SUITE_NAME" value="$PROJECT_DIR$/src/test/java/test/CRUD/POST/testng_POST.xml" />
+      <option name="TEST_OBJECT" value="SUITE" />
+      <properties />
+      <listeners />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="C:/Users/manas/IdeaProjects/ATB5X/src/test/java/test/CRUD/PUT/testng-PUT.xml" type="TestNG" temporary="true" nameIsGenerated="true">
+      <module name="Rest Assured API" />
+      <option name="SUITE_NAME" value="$PROJECT_DIR$/src/test/java/test/CRUD/PUT/testng-PUT.xml" />
+      <option name="TEST_OBJECT" value="SUITE" />
+      <properties />
+      <listeners />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="NonBDDDelete" type="TestNG" temporary="true" nameIsGenerated="true">
       <module name="Rest Assured API" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="test.CRUD.GET.*" />
+          <option name="PATTERN" value="test.CRUD.DELETE.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
-      <option name="PACKAGE_NAME" value="test.CRUD.GET" />
-      <option name="MAIN_CLASS_NAME" value="test.CRUD.GET.nonBDDGETTestNG" />
+      <option name="PACKAGE_NAME" value="test.CRUD.DELETE" />
+      <option name="MAIN_CLASS_NAME" value="test.CRUD.DELETE.NonBDDDelete" />
+      <option name="TEST_OBJECT" value="CLASS" />
+      <properties />
+      <listeners />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="NonBDDPUT" type="TestNG" temporary="true" nameIsGenerated="true">
+      <module name="Rest Assured API" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="test.CRUD.PUT.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="test.CRUD.PUT" />
+      <option name="MAIN_CLASS_NAME" value="test.CRUD.PUT.NonBDDPUT" />
+      <option name="TEST_OBJECT" value="CLASS" />
+      <properties />
+      <listeners />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="NonBDDPatch" type="TestNG" temporary="true" nameIsGenerated="true">
+      <module name="Rest Assured API" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="test.CRUD.PATCH.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="test.CRUD.PATCH" />
+      <option name="MAIN_CLASS_NAME" value="test.CRUD.PATCH.NonBDDPatch" />
       <option name="TEST_OBJECT" value="CLASS" />
       <properties />
       <listeners />
@@ -133,11 +160,11 @@
     </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="TestNG.nonBDDGETTestNG" />
-        <item itemvalue="Application.BDDpatternget" />
-        <item itemvalue="Application.nonBDDGET" />
-        <item itemvalue="Application.ratest" />
-        <item itemvalue="Application.Main" />
+        <item itemvalue="TestNG.NonBDDDelete" />
+        <item itemvalue="TestNG.NonBDDPatch" />
+        <item itemvalue="TestNG.C:/Users/manas/IdeaProjects/ATB5X/src/test/java/test/CRUD/PUT/testng-PUT.xml" />
+        <item itemvalue="TestNG.NonBDDPUT" />
+        <item itemvalue="TestNG.C:/Users/manas/IdeaProjects/ATB5X/src/test/java/test/CRUD/POST/testng_POST.xml" />
       </list>
     </recent_temporary>
   </component>
