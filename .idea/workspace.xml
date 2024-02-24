@@ -5,15 +5,15 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="73b2875e-5c9c-402c-8941-47126ccea24f" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/src/test/java/test/CRUD/DELETE/NonBDDDelete.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/test/CRUD/PATCH/NonBDDPatch.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/test/CRUD/POST/BDDPOSTReq.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/test/CRUD/POST/NonBDDPOSTReq.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/test/CRUD/POST/testng_POST.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/test/CRUD/PUT/NonBDDPUT.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/test/CRUD/PUT/testng-PUT.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/testNG/test001.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/testNG/test002.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/testNG/test003DELReq.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/testNG_test001.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/testNG_test002.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/testNG_test003_DEL_Req.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/testng.xml" beforeDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -51,13 +51,18 @@
     "TestNG.BDDPOSTReq.executor": "Run",
     "TestNG.C:/Users/manas/IdeaProjects/ATB5X/src/test/java/test/CRUD/POST/testng_POST.xml.executor": "Run",
     "TestNG.C:/Users/manas/IdeaProjects/ATB5X/src/test/java/test/CRUD/PUT/testng-PUT.xml.executor": "Run",
+    "TestNG.C:/Users/manas/IdeaProjects/ATB5X/src/test/java/testNG/testcase.xml.executor": "Run",
+    "TestNG.C:/Users/manas/IdeaProjects/ATB5X/testNG_test001.xml.executor": "Run",
+    "TestNG.C:/Users/manas/IdeaProjects/ATB5X/testNG_test002.xml.executor": "Run",
+    "TestNG.C:/Users/manas/IdeaProjects/ATB5X/testNG_test003_DEL_Req.xml.executor": "Run",
     "TestNG.C:/Users/manas/IdeaProjects/ATB5X/testng.xml.executor": "Run",
+    "TestNG.NonBDDDelete.executor": "Run",
     "TestNG.NonBDDPUT.executor": "Run",
     "TestNG.NonBDDPatch.executor": "Run",
     "TestNG.nonBDDGETTestNG.executor": "Run",
     "git-widget-placeholder": "master",
     "kotlin-language-version-configured": "true",
-    "last_opened_file_path": "C:/Users/manas/IdeaProjects/ATB5X/src/test/java/test/CRUD/PUT",
+    "last_opened_file_path": "C:/Users/manas/IdeaProjects/ATB5X",
     "project.structure.last.edited": "SDKs",
     "project.structure.proportion": "0.15",
     "project.structure.side.proportion": "0.2",
@@ -66,6 +71,8 @@
 }]]></component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
+      <recent name="C:\Users\manas\IdeaProjects\ATB5X" />
+      <recent name="C:\Users\manas\IdeaProjects\ATB5X\src\test\java\testNG" />
       <recent name="C:\Users\manas\IdeaProjects\ATB5X\src\test\java\test\CRUD\PUT" />
       <recent name="C:\Users\manas\IdeaProjects\ATB5X\src\test\java\test\CRUD\POST" />
     </key>
@@ -73,7 +80,7 @@
       <recent name="" />
     </key>
   </component>
-  <component name="RunManager" selected="TestNG.NonBDDDelete">
+  <component name="RunManager" selected="TestNG.C:/Users/manas/IdeaProjects/ATB5X/testNG_test001.xml">
     <configuration default="true" type="JetRunConfigurationType">
       <module name="ATB5X" />
       <method v="2">
@@ -87,9 +94,9 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="C:/Users/manas/IdeaProjects/ATB5X/src/test/java/test/CRUD/POST/testng_POST.xml" type="TestNG" temporary="true" nameIsGenerated="true">
+    <configuration name="C:/Users/manas/IdeaProjects/ATB5X/src/test/java/testNG/testcase.xml" type="TestNG" temporary="true" nameIsGenerated="true">
       <module name="Rest Assured API" />
-      <option name="SUITE_NAME" value="$PROJECT_DIR$/src/test/java/test/CRUD/POST/testng_POST.xml" />
+      <option name="SUITE_NAME" value="$PROJECT_DIR$/src/test/java/testNG/testcase.xml" />
       <option name="TEST_OBJECT" value="SUITE" />
       <properties />
       <listeners />
@@ -97,9 +104,9 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="C:/Users/manas/IdeaProjects/ATB5X/src/test/java/test/CRUD/PUT/testng-PUT.xml" type="TestNG" temporary="true" nameIsGenerated="true">
+    <configuration name="C:/Users/manas/IdeaProjects/ATB5X/testNG_test001.xml" type="TestNG" temporary="true" nameIsGenerated="true">
       <module name="Rest Assured API" />
-      <option name="SUITE_NAME" value="$PROJECT_DIR$/src/test/java/test/CRUD/PUT/testng-PUT.xml" />
+      <option name="SUITE_NAME" value="$PROJECT_DIR$/testNG_test001.xml" />
       <option name="TEST_OBJECT" value="SUITE" />
       <properties />
       <listeners />
@@ -107,51 +114,30 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="NonBDDDelete" type="TestNG" temporary="true" nameIsGenerated="true">
+    <configuration name="C:/Users/manas/IdeaProjects/ATB5X/testNG_test002.xml" type="TestNG" temporary="true" nameIsGenerated="true">
       <module name="Rest Assured API" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="test.CRUD.DELETE.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <option name="PACKAGE_NAME" value="test.CRUD.DELETE" />
-      <option name="MAIN_CLASS_NAME" value="test.CRUD.DELETE.NonBDDDelete" />
-      <option name="TEST_OBJECT" value="CLASS" />
+      <option name="SUITE_NAME" value="$PROJECT_DIR$/testNG_test002.xml" />
+      <option name="TEST_OBJECT" value="SUITE" />
       <properties />
       <listeners />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="NonBDDPUT" type="TestNG" temporary="true" nameIsGenerated="true">
+    <configuration name="C:/Users/manas/IdeaProjects/ATB5X/testNG_test003_DEL_Req.xml" type="TestNG" temporary="true" nameIsGenerated="true">
       <module name="Rest Assured API" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="test.CRUD.PUT.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <option name="PACKAGE_NAME" value="test.CRUD.PUT" />
-      <option name="MAIN_CLASS_NAME" value="test.CRUD.PUT.NonBDDPUT" />
-      <option name="TEST_OBJECT" value="CLASS" />
+      <option name="SUITE_NAME" value="$PROJECT_DIR$/testNG_test003_DEL_Req.xml" />
+      <option name="TEST_OBJECT" value="SUITE" />
       <properties />
       <listeners />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="NonBDDPatch" type="TestNG" temporary="true" nameIsGenerated="true">
+    <configuration name="C:/Users/manas/IdeaProjects/ATB5X/testng.xml" type="TestNG" temporary="true" nameIsGenerated="true">
       <module name="Rest Assured API" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="test.CRUD.PATCH.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <option name="PACKAGE_NAME" value="test.CRUD.PATCH" />
-      <option name="MAIN_CLASS_NAME" value="test.CRUD.PATCH.NonBDDPatch" />
-      <option name="TEST_OBJECT" value="CLASS" />
+      <option name="SUITE_NAME" value="$PROJECT_DIR$/testng.xml" />
+      <option name="TEST_OBJECT" value="SUITE" />
       <properties />
       <listeners />
       <method v="2">
@@ -160,11 +146,11 @@
     </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="TestNG.NonBDDDelete" />
-        <item itemvalue="TestNG.NonBDDPatch" />
-        <item itemvalue="TestNG.C:/Users/manas/IdeaProjects/ATB5X/src/test/java/test/CRUD/PUT/testng-PUT.xml" />
-        <item itemvalue="TestNG.NonBDDPUT" />
-        <item itemvalue="TestNG.C:/Users/manas/IdeaProjects/ATB5X/src/test/java/test/CRUD/POST/testng_POST.xml" />
+        <item itemvalue="TestNG.C:/Users/manas/IdeaProjects/ATB5X/testNG_test001.xml" />
+        <item itemvalue="TestNG.C:/Users/manas/IdeaProjects/ATB5X/testNG_test003_DEL_Req.xml" />
+        <item itemvalue="TestNG.C:/Users/manas/IdeaProjects/ATB5X/testNG_test002.xml" />
+        <item itemvalue="TestNG.C:/Users/manas/IdeaProjects/ATB5X/testng.xml" />
+        <item itemvalue="TestNG.C:/Users/manas/IdeaProjects/ATB5X/src/test/java/testNG/testcase.xml" />
       </list>
     </recent_temporary>
   </component>

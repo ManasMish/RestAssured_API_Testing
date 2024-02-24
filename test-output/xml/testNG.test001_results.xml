@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite name="C:/Users/manas/IdeaProjects/ATB5X/src/test/java/testNG"
+           tests="2"
+           failures="0"
+           errors="0"
+           skipped="0"
+           time="0.003">
+    <properties></properties>
+
+
+
+            <testcase
+                name="demo"
+                time="0.002"
+                classname="testNG.test001">
+            </testcase>
+            <testcase
+                name="demo5"
+                time="0.001"
+                classname="testNG.test001">
+            </testcase>
+</testsuite>

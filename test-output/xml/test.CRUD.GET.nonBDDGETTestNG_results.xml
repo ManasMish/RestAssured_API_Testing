@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite name="C:/Users/manas/IdeaProjects/ATB5X/src/test/java/test/CRUD/GET"
+           tests="3"
+           failures="0"
+           errors="0"
+           skipped="0"
+           time="6.458">
+    <properties></properties>
+
+
+
+            <testcase
+                name="NegativeSce2GETALLBooking"
+                time="1.434"
+                classname="test.CRUD.GET.nonBDDGETTestNG">
+            </testcase>
+            <testcase
+                name="PosSceGETALLBooking"
+                time="1.444"
+                classname="test.CRUD.GET.nonBDDGETTestNG">
+            </testcase>
+            <testcase
+                name="NegSceGETALLBooking"
+                time="3.580"
+                classname="test.CRUD.GET.nonBDDGETTestNG">
+            </testcase>
+</testsuite>
