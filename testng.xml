@@ -1,0 +1,2 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd"><suite name="All Test Suite"><test verbose="2" preserve-order="true" name="C:/Users/manas/IdeaProjects/ATB5X/src/test/java/datadriventest/ddt001.java"><classes><class name="datadriventest.ddt001"><methods><include name="test_login"/></methods></class></classes></test></suite>

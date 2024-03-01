@@ -5,15 +5,15 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="73b2875e-5c9c-402c-8941-47126ccea24f" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/src/test/java/testNG/test001.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/testNG/test002.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/testNG/test003DELReq.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/testNG_test001.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/testNG_test002.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/testNG_test003_DEL_Req.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/datadriventest/ddt001.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/util/readExcel.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/testNG_testddt1.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/testng.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/ratest.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/test-output/html/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/test-output/html/index.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/test-output/html/suite0_test0_results.html" beforeDir="false" afterPath="$PROJECT_DIR$/test-output/html/suite0_test0_results.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/test-output/xml/testNG.test002_results.xml" beforeDir="false" afterPath="$PROJECT_DIR$/test-output/xml/testNG.test002_results.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -39,36 +39,38 @@
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent"><![CDATA[{
-  "keyToString": {
-    "ASKED_ADD_EXTERNAL_FILES": "true",
-    "Application.BDDpatternget.executor": "Run",
-    "Application.Main.executor": "Run",
-    "Application.nonBDDGET.executor": "Run",
-    "Application.ratest.executor": "Run",
-    "RunOnceActivity.OpenProjectViewOnStart": "true",
-    "RunOnceActivity.ShowReadmeOnStart": "true",
-    "TestNG.BDDPOSTReq.executor": "Run",
-    "TestNG.C:/Users/manas/IdeaProjects/ATB5X/src/test/java/test/CRUD/POST/testng_POST.xml.executor": "Run",
-    "TestNG.C:/Users/manas/IdeaProjects/ATB5X/src/test/java/test/CRUD/PUT/testng-PUT.xml.executor": "Run",
-    "TestNG.C:/Users/manas/IdeaProjects/ATB5X/src/test/java/testNG/testcase.xml.executor": "Run",
-    "TestNG.C:/Users/manas/IdeaProjects/ATB5X/testNG_test001.xml.executor": "Run",
-    "TestNG.C:/Users/manas/IdeaProjects/ATB5X/testNG_test002.xml.executor": "Run",
-    "TestNG.C:/Users/manas/IdeaProjects/ATB5X/testNG_test003_DEL_Req.xml.executor": "Run",
-    "TestNG.C:/Users/manas/IdeaProjects/ATB5X/testng.xml.executor": "Run",
-    "TestNG.NonBDDDelete.executor": "Run",
-    "TestNG.NonBDDPUT.executor": "Run",
-    "TestNG.NonBDDPatch.executor": "Run",
-    "TestNG.nonBDDGETTestNG.executor": "Run",
-    "git-widget-placeholder": "master",
-    "kotlin-language-version-configured": "true",
-    "last_opened_file_path": "C:/Users/manas/IdeaProjects/ATB5X",
-    "project.structure.last.edited": "SDKs",
-    "project.structure.proportion": "0.15",
-    "project.structure.side.proportion": "0.2",
-    "settings.editor.selected.configurable": "preferences.pluginManager"
+  <component name="PropertiesComponent">{
+  &quot;keyToString&quot;: {
+    &quot;ASKED_ADD_EXTERNAL_FILES&quot;: &quot;true&quot;,
+    &quot;Application.BDDpatternget.executor&quot;: &quot;Run&quot;,
+    &quot;Application.Main.executor&quot;: &quot;Run&quot;,
+    &quot;Application.nonBDDGET.executor&quot;: &quot;Run&quot;,
+    &quot;Application.ratest.executor&quot;: &quot;Run&quot;,
+    &quot;RunOnceActivity.OpenProjectViewOnStart&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
+    &quot;TestNG.BDDPOSTReq.executor&quot;: &quot;Run&quot;,
+    &quot;TestNG.C:/Users/manas/IdeaProjects/ATB5X/src/test/java/test/CRUD/POST/testng_POST.xml.executor&quot;: &quot;Run&quot;,
+    &quot;TestNG.C:/Users/manas/IdeaProjects/ATB5X/src/test/java/test/CRUD/PUT/testng-PUT.xml.executor&quot;: &quot;Run&quot;,
+    &quot;TestNG.C:/Users/manas/IdeaProjects/ATB5X/src/test/java/testNG/testcase.xml.executor&quot;: &quot;Run&quot;,
+    &quot;TestNG.C:/Users/manas/IdeaProjects/ATB5X/testNG_test001.xml.executor&quot;: &quot;Run&quot;,
+    &quot;TestNG.C:/Users/manas/IdeaProjects/ATB5X/testNG_test002.xml.executor&quot;: &quot;Run&quot;,
+    &quot;TestNG.C:/Users/manas/IdeaProjects/ATB5X/testNG_test003_DEL_Req.xml.executor&quot;: &quot;Run&quot;,
+    &quot;TestNG.C:/Users/manas/IdeaProjects/ATB5X/testNG_testddt1.xml.executor&quot;: &quot;Run&quot;,
+    &quot;TestNG.C:/Users/manas/IdeaProjects/ATB5X/testng.xml.executor&quot;: &quot;Run&quot;,
+    &quot;TestNG.NonBDDDelete.executor&quot;: &quot;Run&quot;,
+    &quot;TestNG.NonBDDPUT.executor&quot;: &quot;Run&quot;,
+    &quot;TestNG.NonBDDPatch.executor&quot;: &quot;Run&quot;,
+    &quot;TestNG.ddt001.executor&quot;: &quot;Run&quot;,
+    &quot;TestNG.nonBDDGETTestNG.executor&quot;: &quot;Run&quot;,
+    &quot;git-widget-placeholder&quot;: &quot;master&quot;,
+    &quot;kotlin-language-version-configured&quot;: &quot;true&quot;,
+    &quot;last_opened_file_path&quot;: &quot;C:/Users/manas/IdeaProjects/ATB5X&quot;,
+    &quot;project.structure.last.edited&quot;: &quot;SDKs&quot;,
+    &quot;project.structure.proportion&quot;: &quot;0.15&quot;,
+    &quot;project.structure.side.proportion&quot;: &quot;0.2&quot;,
+    &quot;settings.editor.selected.configurable&quot;: &quot;preferences.pluginManager&quot;
   }
-}]]></component>
+}</component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
       <recent name="C:\Users\manas\IdeaProjects\ATB5X" />
@@ -80,7 +82,7 @@
       <recent name="" />
     </key>
   </component>
-  <component name="RunManager" selected="TestNG.C:/Users/manas/IdeaProjects/ATB5X/testNG_test001.xml">
+  <component name="RunManager" selected="TestNG.C:/Users/manas/IdeaProjects/ATB5X/testNG_testddt1.xml">
     <configuration default="true" type="JetRunConfigurationType">
       <module name="ATB5X" />
       <method v="2">
@@ -90,16 +92,6 @@
     <configuration default="true" type="KotlinStandaloneScriptRunConfigurationType">
       <module name="ATB5X" />
       <option name="filePath" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="C:/Users/manas/IdeaProjects/ATB5X/src/test/java/testNG/testcase.xml" type="TestNG" temporary="true" nameIsGenerated="true">
-      <module name="Rest Assured API" />
-      <option name="SUITE_NAME" value="$PROJECT_DIR$/src/test/java/testNG/testcase.xml" />
-      <option name="TEST_OBJECT" value="SUITE" />
-      <properties />
-      <listeners />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
@@ -134,10 +126,27 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="C:/Users/manas/IdeaProjects/ATB5X/testng.xml" type="TestNG" temporary="true" nameIsGenerated="true">
+    <configuration name="C:/Users/manas/IdeaProjects/ATB5X/testNG_testddt1.xml" type="TestNG" temporary="true" nameIsGenerated="true">
       <module name="Rest Assured API" />
-      <option name="SUITE_NAME" value="$PROJECT_DIR$/testng.xml" />
+      <option name="SUITE_NAME" value="$PROJECT_DIR$/testNG_testddt1.xml" />
       <option name="TEST_OBJECT" value="SUITE" />
+      <properties />
+      <listeners />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="ddt001" type="TestNG" temporary="true" nameIsGenerated="true">
+      <module name="Rest Assured API" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="datadriventest.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="datadriventest" />
+      <option name="MAIN_CLASS_NAME" value="datadriventest.ddt001" />
+      <option name="TEST_OBJECT" value="CLASS" />
       <properties />
       <listeners />
       <method v="2">
@@ -146,11 +155,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="TestNG.C:/Users/manas/IdeaProjects/ATB5X/testNG_testddt1.xml" />
+        <item itemvalue="TestNG.C:/Users/manas/IdeaProjects/ATB5X/testNG_test002.xml" />
+        <item itemvalue="TestNG.ddt001" />
         <item itemvalue="TestNG.C:/Users/manas/IdeaProjects/ATB5X/testNG_test001.xml" />
         <item itemvalue="TestNG.C:/Users/manas/IdeaProjects/ATB5X/testNG_test003_DEL_Req.xml" />
-        <item itemvalue="TestNG.C:/Users/manas/IdeaProjects/ATB5X/testNG_test002.xml" />
-        <item itemvalue="TestNG.C:/Users/manas/IdeaProjects/ATB5X/testng.xml" />
-        <item itemvalue="TestNG.C:/Users/manas/IdeaProjects/ATB5X/src/test/java/testNG/testcase.xml" />
       </list>
     </recent_temporary>
   </component>
